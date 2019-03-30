@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServForOracle.NetCore.Extensions.Autofac", "ServForOracle.NetCore.Extensions.Autofac\ServForOracle.NetCore.Extensions.Autofac.csproj", "{66417193-D3DF-436C-9C7F-A3F45CB0581C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66417193-D3DF-436C-9C7F-A3F45CB0581C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66417193-D3DF-436C-9C7F-A3F45CB0581C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66417193-D3DF-436C-9C7F-A3F45CB0581C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66417193-D3DF-436C-9C7F-A3F45CB0581C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5F10361-603F-4386-AB41-52DE8F997887}
+	EndGlobalSection
+EndGlobal
