@@ -18,7 +18,7 @@ namespace ServForOracle.NetCore.Extensions.Autofac
         {
             var dictionary =
                 Enum.GetValues(typeof(T)).Cast<T>()
-                    .Zip(connectionStrings, (T key, string value) => KeyValuePair.Create((object)key, value))
+                    .Zip(connectionStrings, (T key, string value) => new KeyValuePair<object, string>(key, value))
                     .ToDictionary(c => c.Key, c => c.Value);
 
             return dictionary;
